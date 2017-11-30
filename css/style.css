@@ -1,0 +1,87 @@
+body{
+    background-color: #eee;
+}
+
+.app {
+    color: #1C2020;
+    background-color: #FFF;
+    margin: 44px auto;
+    max-width: 400px;
+    border-top: 2px solid #65469c;
+    
+}
+.app .app-header {
+    padding-top: 18px;
+}
+.app .app-header img {
+    margin: 0 auto;
+    height: 150px;
+}
+.app .channel-stutas {
+    box-shadow: 2px 3px 6px #ddd;
+    padding-bottom: 15px;
+    margin: 20px 0 5px;    
+}
+.app .channel-stutas span {
+   border-radius: 10px;
+}
+.app .channels {
+    background-color: #f5f5f5;
+    padding: 1px;
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+}
+.app .channel-content{
+    background-color: #FFF;
+    box-shadow: 2px 3px 6px #ddd;
+    margin: 10px auto;
+    width: 90%;
+    height: 80px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.app .channel-content .channel-logo {
+    width: 23%;
+    height: 100%;
+    display: inline-block;
+}
+.app .channel-content .channel-logo img {
+    border-radius: 50%;
+    height: 100%;
+}
+.app .channel-content .channel-info {
+    width: 75%;
+    height: 100%;
+    display: inline-block;
+}
+.app .channel-content .channel-info span {
+    margin: 40px 5px;
+}
+
+.app .app-footer {
+    padding: 1px;
+    text-align: center;
+    background-color: #FFF;
+    border-bottom: 2px solid #65469c;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: #65469c;
+}
+::-webkit-scrollbar-corner {
+    background-color: #f5f5f5;
+}
+.online {
+    color: #65469c;
+}
+.hide {
+    display: none !important;
+}
+.actives {
+    background-color: #65469c;
+    color: #FFF;
+}
